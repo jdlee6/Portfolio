@@ -1,29 +1,73 @@
-import React from 'react';
-import { Navbar } from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
-export default function Nav() {
-  return (
-    <div>
-      <Navbar style={header} sticky="top" bg="dark" variant="dark">
-        <Navbar.Brand style={titleStyle} href="/">
-          Home
-        </Navbar.Brand>
-        <Navbar.Brand style={titleStyle} href="/about">
-          About
-        </Navbar.Brand>
-        <Navbar.Brand style={titleStyle} href="/projects">
-          Projects
-        </Navbar.Brand>
-      </Navbar>
-    </div>
-  );
+export default class Nav extends Component {
+  render() {
+    return (
+      <div className="navbar">
+        <ul>
+          <li>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="resume"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Resume
+            </Link>
+          </li>
+        </ul>
+      </div>
+    );
+  }
 }
-
-const titleStyle = {
-  fontSize: '12px'
-};
-
-const header = {
-  height: '20px',
-  padding: '15px'
-};

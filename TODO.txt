@@ -2,7 +2,8 @@
 #####TO DO######
 ################
 
-- Card UI
+- add animation for menu open/close
+- Card UI for Projects
 - About me paper component style
 
 ################

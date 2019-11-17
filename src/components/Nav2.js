@@ -4,10 +4,6 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 export default class Nav2 extends Component {
   state = {};
 
-  scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
   render() {
     return (
       <div className="navbar">
@@ -46,6 +42,30 @@ export default class Nav2 extends Component {
               duration={500}
             >
               Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="resume"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Resume
             </Link>
           </li>
         </ul>

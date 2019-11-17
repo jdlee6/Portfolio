@@ -81,3 +81,14 @@ span {
 a {
   font-family: 'Spectral', serif;
 }
+
+.about-paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 0px;
+  min-height: 60vh;
+}

@@ -5,7 +5,7 @@ import Project from './components/pages/Projects';
 import Skills from './components/pages/Skills';
 import Resume from './components/pages/Resume';
 import Nav2 from './components/Nav2';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {

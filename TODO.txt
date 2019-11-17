@@ -3,14 +3,17 @@
 ################
 
 - Card UI
+- About me paper component style
 
 ################
 ####CHANGES#####
 ################
 
-- React Scroll
 
 
 ################
 ####COMPLETE####
 ################
+
+- React Scroll [x]
+- Resume & Skills [x]

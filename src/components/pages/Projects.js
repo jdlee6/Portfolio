@@ -4,7 +4,9 @@ export class Projects extends Component {
   render() {
     return (
       <div className="projects-section" id="projects">
-        Projects
+        <div className="container">
+          <div className="section-title">Projects</div>
+        </div>
       </div>
     );
   }

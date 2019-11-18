@@ -2,6 +2,7 @@
 #####TO DO######
 ################
 
+- fix active link
 - add animation for menu open/close
 - Card UI for Projects
 - About me paper component style
@@ -10,7 +11,9 @@
 ####CHANGES#####
 ################
 
-
+- section headers
+- fix section headers to be proportionate in size
+- background gradients
 
 ################
 ####COMPLETE####

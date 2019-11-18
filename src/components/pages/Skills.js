@@ -4,7 +4,9 @@ export class Skills extends Component {
   render() {
     return (
       <div className="skills-section" id="skills">
-        Skills
+        <div className="container">
+          <div className="section-title">Skills</div>
+        </div>
       </div>
     );
   }

@@ -1,12 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .navbar {
-  margin-top: -32px;
+  margin-top: -16px;
 }
 
 .menu {
   position: sticky;
   background-color: var(--off-white);
   top: 15px;
-  height: 20px;
+  height: 25px;
   padding-left: 15px;
   z-index: 1000;
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15);
@@ -29,7 +34,7 @@
 }
 
 .home-section {
-  height: 103vh;
+  height: 104vh;
   background-image: url('./media/220675.jpg');
   background-position: center, center;
   background-repeat: no-repeat;
@@ -38,23 +43,43 @@
 }
 
 .about-section {
+  background: linear-gradient(
+    to top,
+    rgb(244, 250, 255) 0%,
+    rgb(213, 221, 230) 40%,
+    rgb(173, 189, 200) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   height: 100vh;
-  background-color: lightblue;
 }
 
 .projects-section {
   height: 100vh;
-  background-color: lightgreen;
+  background: linear-gradient(
+    to top,
+    rgb(254, 255, 244) 0%,
+    rgb(229, 225, 215) 40%,
+    rgb(214, 198, 179) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .skills-section {
-  height: 100vh;
-  background-color: lightcyan;
+  height: 104vh;
+  background: linear-gradient(
+    to top,
+    rgb(246, 244, 255) 0%,
+    rgb(217, 215, 229) 40%,
+    rgb(156, 152, 173) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .resume-section {
   height: 100vh;
-  background-color: lightgrey;
+  background: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 0%,
+    rgb(231, 231, 231) 40%,
+    rgb(161, 161, 161) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .type {
@@ -62,14 +87,9 @@
   flex-direction: column;
   justify-content: center;
   margin-top: -47px;
-  margin-left: 45px;
+  margin-left: 60px;
   margin-bottom: 0px;
-  min-height: 60vh;
-}
-
-body {
-  margin-right: 0px;
-  margin-left: 0px;
+  min-height: 65vh;
 }
 
 span {
@@ -90,9 +110,25 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 35px;
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 0px;
   min-height: 60vh;
+}
+
+.section-title {
+  width: max-content;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 10px 18px;
+  border: 1px solid;
+}
+
+.container {
+  padding-top: 60px;
+  padding-left: 25px;
 }

@@ -4,7 +4,9 @@ export class Resume extends Component {
   render() {
     return (
       <div className="resume-section" id="resume">
-        Resume
+        <div className="container">
+          <div className="section-title">Resume</div>
+        </div>
       </div>
     );
   }

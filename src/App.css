@@ -7,6 +7,19 @@
   margin-top: -16px;
 }
 
+.fade {
+  animation: fade-in-keyframes 1.3s;
+}
+
+@keyframes fade-in-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .menu {
   position: sticky;
   background-color: var(--off-white);
@@ -29,9 +42,9 @@
   display: inline-block;
 }
 
-.navbar > .active {
+/* .active {
   border-bottom: 2px solid #fff;
-}
+} */
 
 .home-section {
   height: 104vh;
@@ -131,4 +144,10 @@ span {
 .container {
   padding-top: 60px;
   padding-left: 25px;
+}
+
+.center {
+  align-content: center;
+  justify-content: center;
+  padding-top: 100px;
 }

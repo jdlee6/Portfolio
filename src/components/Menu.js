@@ -27,8 +27,12 @@ export class Menu extends Component {
           borderRadius={0}
           animationDuration={0.5}
         />
-        {/* show nav with animation? */}
-        {this.state.open ? <Nav /> : null}
+        {this.state.open ? (
+          <div className="fade">
+            {' '}
+            <Nav />{' '}
+          </div>
+        ) : null}
       </div>
     );
   }

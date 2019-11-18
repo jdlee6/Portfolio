@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ImageGallery from '../ImageGallery';
 
 export class Projects extends Component {
   render() {
@@ -6,6 +7,9 @@ export class Projects extends Component {
       <div className="projects-section" id="projects">
         <div className="container">
           <div className="section-title">Projects</div>
+        </div>
+        <div className="center">
+          <ImageGallery />
         </div>
       </div>
     );

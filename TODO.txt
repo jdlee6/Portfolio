@@ -2,8 +2,7 @@
 #####TO DO######
 ################
 
-- fix active link
-- add animation for menu open/close
+- fix active navbar link
 - Card UI for Projects
 - About me paper component style
 
@@ -11,9 +10,7 @@
 ####CHANGES#####
 ################
 
-- section headers
-- fix section headers to be proportionate in size
-- background gradients
+
 
 ################
 ####COMPLETE####
@@ -21,3 +18,8 @@
 
 - React Scroll [x]
 - Resume & Skills [x]
+- added fade in for menu open [x]
+- section headers [x]
+- fix section headers to be proportionate in size [x]
+- background gradients [x] 
+- image gallery for projects page w/ react gesture gallery [x]

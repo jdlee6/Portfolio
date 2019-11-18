@@ -8,6 +8,7 @@ export class Projects extends Component {
         <div className="container">
           <div className="section-title">Projects</div>
         </div>
+
         <div className="center">
           <ImageGallery />
         </div>

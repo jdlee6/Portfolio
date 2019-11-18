@@ -2,6 +2,7 @@
 #####TO DO######
 ################
 
+- photo effects on hover
 - fix active navbar link
 - Card UI for Projects
 - About me paper component style

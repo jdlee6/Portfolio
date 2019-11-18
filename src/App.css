@@ -147,7 +147,5 @@ span {
 }
 
 .center {
-  align-content: center;
-  justify-content: center;
-  padding-top: 100px;
+  padding-top: 10%;
 }

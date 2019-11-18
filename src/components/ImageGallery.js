@@ -21,7 +21,13 @@ function App() {
 
   return (
     <Gallery
-      style={{ height: '60vh', width: '100vw', background: 'none' }}
+      style={{
+        height: '50vh',
+        width: '100vw',
+        maxWidth: '100%',
+        background: 'none',
+        position: 'relative'
+      }}
       index={index}
       onRequestChange={i => {
         setIndex(i);

@@ -2,15 +2,19 @@
 #####TO DO######
 ################
 
+- tweak nav bar active link selection effect
+- fade out on menu close
+- component transitions
 - photo effects on hover
-- fix active navbar link
 - Card UI for Projects
 - About me paper component style
+
 
 ################
 ####CHANGES#####
 ################
 
+- header & caption for project pictures
 
 
 ################

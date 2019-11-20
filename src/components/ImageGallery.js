@@ -1,5 +1,7 @@
 import React from 'react';
 import { images } from './images';
+import { titles } from './titles';
+import { descriptions } from './descriptions';
 import '../App.css';
 import { Gallery, GalleryImage } from 'react-gesture-gallery';
 
@@ -20,23 +22,27 @@ function App() {
   }, [index]);
 
   return (
-    <Gallery
-      style={{
-        height: '50vh',
-        width: '100vw',
-        maxWidth: '100%',
-        background: 'none',
-        position: 'relative'
-      }}
-      index={index}
-      onRequestChange={i => {
-        setIndex(i);
-      }}
-    >
-      {images.map(image => (
-        <GalleryImage objectFit="contain" src={image} />
-      ))}
-    </Gallery>
+    <>
+      <Gallery
+        style={{
+          height: '50vh',
+          width: '100vw',
+          maxWidth: '100%',
+          background: 'none',
+          position: 'relative'
+        }}
+        index={index}
+        onRequestChange={i => {
+          setIndex(i);
+        }}
+      >
+        {images.map(image => (
+          <GalleryImage objectFit="contain" src={image} />
+        ))}
+      </Gallery>
+      <div className="project-header">{titles[index]}</div>
+      <div className="project-description">{descriptions[index]}</div>
+    </>
   );
 }
 

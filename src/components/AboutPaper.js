@@ -17,22 +17,13 @@ export default function AboutPaper() {
       <Typography variant="h5" component="h3">
         This is a sheet of paper.
       </Typography>
-      <Typography component="p">
-        <p>
-          Paper can be used to build surface or other elements for your
-          application. Paper can be used to build surface or other elements for
-          your application. Paper can be used to build surface or other elements
-          for your application. Paper can be used to build surface or other
-          elements for your application. Paper can be used to build surface or
-          other elements for your application. Paper can be used to build
-          surface or other elements for your application.
-        </p>
-        <p>
-          Paper can be used to build surface or other elements for your
-          application. Paper can be used to build surface or other elements for
-          your application. Paper can be used to build surface or other elements
-          for your application.
-        </p>
+      <Typography component="bpdy2">
+        Paper can be used to build surface or other elements for your
+        application. Paper can be used to build surface or other elements for
+        your application. Paper can be used to build surface or other elements
+        for your application. Paper can be used to build surface or other
+        elements for your application. Paper can be used to build surface or
+        other elements for your application. Paper can be used to build
       </Typography>
     </Paper>
   );

@@ -30,7 +30,7 @@ export class Menu extends Component {
         {this.state.open ? (
           <div className="fade">
             {' '}
-            <Nav />{' '}
+            <Nav aboutClick={this.props.aboutClick} />{' '}
           </div>
         ) : null}
       </div>

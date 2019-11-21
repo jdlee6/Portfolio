@@ -3,7 +3,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Project from './components/pages/Projects';
 import Skills from './components/pages/Skills';
-import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
 import Menu from './components/Menu';
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Project />
       <Skills />
-      <Resume />
+      <Contact />
     </div>
   );
 }

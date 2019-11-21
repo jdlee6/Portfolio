@@ -1,7 +1,5 @@
 import React from 'react';
-import { images } from './images';
-import { titles } from './titles';
-import { descriptions } from './descriptions';
+import { projects } from './projects';
 import '../App.css';
 import { Gallery, GalleryImage } from 'react-gesture-gallery';
 
@@ -11,12 +9,12 @@ function App() {
 
   React.useEffect(() => {
     const interval = setInterval(() => {
-      if (index === images.length - 1) {
+      if (index === projects.length - 1) {
         setIndex(INITAL_INDEX);
       } else {
         setIndex(index + 1);
       }
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [index]);
@@ -36,12 +34,16 @@ function App() {
           setIndex(i);
         }}
       >
-        {images.map(image => (
-          <GalleryImage objectFit="contain" src={image} />
+        {projects.map(project => (
+          <GalleryImage
+            className="realimage"
+            objectFit="contain"
+            src={projects[index].image}
+          />
         ))}
       </Gallery>
-      <div className="project-header">{titles[index]}</div>
-      <div className="project-description">{descriptions[index]}</div>
+      <div className="project-header">{projects[index].title}</div>
+      <div className="project-description">{projects[index].description}</div>
     </>
   );
 }

@@ -1,73 +1,71 @@
-import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import React from 'react';
+import { Link } from 'react-scroll';
 
-export default class Nav extends Component {
-  render() {
-    return (
-      <div className="navbar">
-        <ul>
-          <li>
-            <Link
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="resume"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              Resume
-            </Link>
-          </li>
-        </ul>
-      </div>
-    );
-  }
+export default function Nav() {
+  return (
+    <div className="navbar">
+      <ul>
+        <li>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
 }

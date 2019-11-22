@@ -6,13 +6,13 @@ export class Type extends Component {
     return (
       <div className="type">
         <Typing loop={true} speed={10} hideCursor={false}>
-          <span>Software Developer</span>
+          <home-text>Software Developer</home-text>
           <Typing.Delay ms={2250} />
           <Typing.Backspace count={19} />
-          <span>Backend Developer</span>
+          <home-text>Backend Developer</home-text>
           <Typing.Delay ms={2250} />
           <Typing.Backspace count={19} />
-          <span>Creator</span>
+          <home-text>Creator</home-text>
           <Typing.Delay ms={2500} />
           <Typing.Backspace count={9} />
         </Typing>

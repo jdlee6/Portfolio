@@ -4,18 +4,18 @@
 
 - fade out on menu close
 - replace dummy data for project images/descriptions
-- contact page
 - create route for resume
 - github/linkedin/resume links?
 
+- form validation
+- emailjs
 
 ################
 ####CHANGES#####
 ################
 
-- finish up svg [x]
-- fade in about me page [x]
-- photo shadows [x]
+- contact page [x]
+- mui form fields [x]
 
 
 ################
@@ -30,3 +30,6 @@
 - background gradients [x] 
 - image gallery for projects page w/ react gesture gallery [x]
 - header & caption for project pictures [x]
+- finish up svg [x]
+- fade in about me page [x]
+- photo shadows [x]

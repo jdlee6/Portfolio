@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AboutPaper from '../AboutPaper';
 import { useSpring, animated } from 'react-spring';
 

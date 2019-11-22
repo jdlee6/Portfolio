@@ -91,9 +91,9 @@ navbar ul li > .active,
   height: 100vh;
   background: linear-gradient(
     to top,
-    rgb(246, 244, 255) 0%,
-    rgb(217, 215, 229) 40%,
-    rgb(156, 152, 173) 100%
+    rgb(248, 248, 248) 0%,
+    rgb(219, 210, 199) 40%,
+    rgb(233, 190, 141) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
@@ -105,16 +105,6 @@ navbar ul li > .active,
   margin-left: 60px;
   margin-bottom: 0px;
   min-height: 65vh;
-}
-
-span {
-  font-family: 'Spectral', serif;
-  font-size: 2em;
-  /* text-shadow: 3px 3px rgba(93, 93, 93, 0.952); */
-  color: rgb(122, 153, 243);
-  display: inline;
-  padding: 0;
-  margin: 0;
 }
 
 .a {
@@ -206,4 +196,59 @@ svg:hover {
     padding-top: 15%;
     padding-right: 5%;
   }
+}
+
+.contact-container {
+  padding-top: 4%;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+}
+
+/* contact div */
+.contact-message {
+  justify-content: center;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 13%;
+  /* border: 1px solid; */
+}
+
+@media only screen and (max-width: 950px) {
+  .contact-message {
+    padding-top: 5%;
+    padding-left: 17%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-message {
+    padding-left: 17%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-right: 6%;
+  }
+}
+
+home-text {
+  font-family: 'Spectral', serif;
+  font-size: 2em;
+  color: rgb(122, 153, 243);
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  font-family: 'Spectral', serif;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
 }

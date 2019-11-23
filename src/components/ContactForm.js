@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import * as emailjs from 'emailjs-com';
 
 const useStyles = makeStyles(theme => ({
   container: {
@@ -12,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
     width: '80%',
-    paddingBottom: '2%'
+    paddingBottom: '1.5%'
   },
   button: {
     margin: theme.spacing(1)
@@ -21,9 +22,6 @@ const useStyles = makeStyles(theme => ({
     display: 'none'
   }
 }));
-
-// TODO error handling for text fields
-// error={values.name.length === 0 ? true : false}
 
 export default function ContactForm() {
   // state for forms
@@ -40,9 +38,45 @@ export default function ContactForm() {
     setValues({ ...values, [name]: value });
   };
 
-  // submit logic
-  function onSubmit() {
-    console.log('Submitted');
+  // reset form function
+  function reset() {
+    setValues({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    });
+  }
+
+  // submit logic/send email
+  function handleSubmit(e) {
+    e.preventDefault();
+    const { name, email, subject, message } = values;
+
+    // let templateParams = {
+    //   from_name: email,
+    //   to_name: 'jdlee6@buffalo.edu',
+    //   subject: subject,
+    //   message_html: message
+    // };
+
+    // emailjs
+    //   .send(
+    //     'my_mail',
+    //     'template_I1Mqok9f',
+    //     templateParams,
+    //     'user_oxnZeP7DmKFhOMsuX4OFZ'
+    //   )
+    //   .then(
+    //     result => {
+    //       console.log(result.text);
+    //     },
+    //     error => {
+    //       console.log(error.text);
+    //     }
+    //   );
+
+    reset();
   }
 
   const classes = useStyles();
@@ -53,7 +87,7 @@ export default function ContactForm() {
         <TextField
           label="Name"
           name="name"
-          defaultValue=""
+          value={values.name}
           className={classes.textField}
           margin="dense"
           variant="outlined"
@@ -62,7 +96,7 @@ export default function ContactForm() {
         <TextField
           label="Email"
           name="email"
-          defaultValue=""
+          value={values.email}
           className={classes.textField}
           margin="dense"
           variant="outlined"
@@ -71,7 +105,7 @@ export default function ContactForm() {
         <TextField
           label="Subject"
           name="subject"
-          defaultValue=""
+          value={values.subject}
           className={classes.textField}
           margin="dense"
           variant="outlined"
@@ -82,7 +116,7 @@ export default function ContactForm() {
           name="message"
           multiline
           rows="4"
-          defaultValue=""
+          value={values.message}
           className={classes.textField}
           margin="normal"
           variant="outlined"
@@ -94,7 +128,7 @@ export default function ContactForm() {
           variant="outlined"
           className={classes.button}
           type="submit"
-          onClick={onSubmit}
+          onClick={handleSubmit}
         >
           Submit
         </Button>
@@ -102,3 +136,6 @@ export default function ContactForm() {
     </div>
   );
 }
+
+// TODO error handling for text fields
+// error={values.name.length === 0 ? true : false}

@@ -54,7 +54,7 @@ navbar ul li > .active,
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .about-section {
@@ -105,6 +105,24 @@ navbar ul li > .active,
   margin-left: 60px;
   margin-bottom: 0px;
   min-height: 65vh;
+}
+
+/* iPhone X */
+@media only screen and (max-width: 750px) {
+  .type {
+    padding-left: 0;
+    padding-top: 5%;
+    padding-right: 6%;
+  }
+}
+
+home-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: rgb(209, 220, 251);
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
 
 .a {
@@ -165,6 +183,7 @@ navbar ul li > .active,
   /* -webkit-transition: 0.3s ease-in-out; */
   /* transition: 0.3s ease-in-out; */
   filter: drop-shadow(0.2rem 0.2rem 0.4rem rgb(88, 88, 88, 1));
+  opacity: 0.9;
 }
 
 svg {
@@ -200,7 +219,7 @@ svg:hover {
 
 .contact-container {
   padding-top: 4%;
-  padding-left: 8%;
+  padding-left: 17%;
   padding-right: 8%;
   text-align: center;
 }
@@ -210,40 +229,50 @@ svg:hover {
   justify-content: center;
   text-transform: uppercase;
   word-wrap: break-word;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 2px;
   word-wrap: break-word;
   padding-top: 5%;
   padding-right: 5%;
-  padding-left: 13%;
+  padding-left: 39%;
   /* border: 1px solid; */
 }
 
 @media only screen and (max-width: 950px) {
   .contact-message {
-    padding-top: 5%;
-    padding-left: 17%;
-    padding-right: 10%;
+    padding-top: 7%;
+    padding-left: 29%;
+    padding-right: 15%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .contact-container {
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 8%;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .contact-message {
-    padding-left: 17%;
-    padding-top: 10%;
+    display: inline-flex;
+    padding-left: 21%;
+    padding-top: 15%;
     padding-bottom: 5%;
-    padding-right: 6%;
+    padding-right: 20%;
   }
 }
 
-home-text {
-  font-family: 'Spectral', serif;
-  font-size: 2em;
-  color: rgb(122, 153, 243);
-  display: inline;
-  padding: 0;
-  margin: 0;
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 8%;
+    text-align: center;
+  }
 }
 
 span {

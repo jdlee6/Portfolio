@@ -2,13 +2,17 @@
 #####TO DO######
 ################
 
-- fade out on menu close
-- replace dummy data for project images/descriptions
-- create route for resume
-- github/linkedin/resume links?
+* replace dummy data for project images & descriptions
+  - video demo of projects instead of gifs (youtube/streamable clip) link
+  - github link 
+  - live link
+* github/linkedin/resume svg icon (contact page)
 
 - form validation
-- emailjs
+- fade out on menu close
+- readme 
+- domain name (github or buy my own) [x]
+
 
 ################
 ####CHANGES#####
@@ -16,6 +20,12 @@
 
 - contact page [x]
 - mui form fields [x]
+- emailjs [x]
+- clear forms [x]
+  * had to give textfield a value prop and assign the state to that prop
+- font replacement for aboutpaper & replaced dummy data [x] 
+- favicon [x]
+
 
 
 ################

@@ -36,6 +36,7 @@ function App() {
       >
         {projects.map(project => (
           <GalleryImage
+            key={projects[index].key}
             className="realimage"
             objectFit="contain"
             src={projects[index].image}

@@ -3,7 +3,8 @@
 ################
 
 - form validation (email rejex?)
-- readme 
+- generate readme 
+- crop pictures (don't show desktop)
 
 
 ################

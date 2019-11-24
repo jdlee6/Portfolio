@@ -1,9 +1,26 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Nav() {
   return (
     <div className="navbar">
+      <div className="contact-svg">
+        <a className="contact-svg" href="https://www.github.com/jdlee6">
+          <FontAwesomeIcon icon={faGithub} color="#FFF" />
+        </a>
+        <a
+          className="contact-svg"
+          href="https://www.linkedin.com/in/joseph-lee-a90680151/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#FFF" />
+        </a>
+        <a className="contact-svg" href={'/resume_public.pdf'}>
+          <FontAwesomeIcon icon={faFilePdf} color="#FFF" />
+        </a>
+      </div>
       <ul>
         <li>
           <Link

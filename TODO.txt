@@ -2,30 +2,27 @@
 #####TO DO######
 ################
 
-* replace dummy data for project images & descriptions
-  - video demo of projects instead of gifs (youtube/streamable clip) link
-  - github link 
-  - live link
-* github/linkedin/resume svg icon (contact page)
-
-- form validation
-- fade out on menu close
+- form validation (email rejex?)
 - readme 
-- domain name (github or buy my own) [x]
 
 
 ################
 ####CHANGES#####
 ################
 
-- contact page [x]
-- mui form fields [x]
-- emailjs [x]
-- clear forms [x]
-  * had to give textfield a value prop and assign the state to that prop
-- font replacement for aboutpaper & replaced dummy data [x] 
-- favicon [x]
+- github/linkedin/resume svg icon (placed in navbar)
+  - requires http:// in the beginning or doesn't redirect externally
+  * resume pdf link
+    - had to be in the public directory (href="/resume_public.pdf')
 
+- tweaked link hover css 
+
+* replaced dummy data project descriptions
+  - changed titles/captions/pictures
+  - github link 
+  - live link
+    - conditional for live link (projects section)
+  - demo link
 
 
 ################
@@ -43,3 +40,11 @@
 - finish up svg [x]
 - fade in about me page [x]
 - photo shadows [x]
+- contact page [x]
+- mui form fields [x]
+- emailjs [x]
+- clear forms [x]
+  * had to give textfield a value prop and assign the state to that prop
+- font replacement for aboutpaper & replaced dummy data [x] 
+- favicon [x]
+- domain name (github or buy my own) [x]

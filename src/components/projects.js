@@ -1,50 +1,42 @@
 export const projects = [
   {
     key: 1,
-    image:
-      'https://images.unsplash.com/photo-1559666126-84f389727b9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80',
-    title: 'dummy title 1',
+    image: 'https://imgur.com/Fs4ecRU.png',
+    title: 'Konek',
     description:
-      'ignore this. this is just dummy description for project number 1',
-    live: 'Live',
-    github: 'Github'
+      'Konek is a social network created with Flask that features many of the core functionalities of Twitter.',
+    live: 'https://konekted.herokuapp.com',
+    github: 'https://github.com/Kohdz/Konek/commits?author=jdlee6',
+    demo: 'https://youtu.be/aLnFoQniouY'
   },
   {
     key: 2,
-    image:
-      'https://images.unsplash.com/photo-1557389352-e721da78ad9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-    title: 'dummy title 2',
+    image: 'https://imgur.com/kf6PhNM.png',
+    title: 'Skoogle',
     description:
-      'ignore this. this is just dummy description for project number 2',
-    live: 'Live',
-    github: 'Github'
+      'Skoogle is a web application created with Flask that finds skate parks within a desired location & mile radius.',
+    live: 'https://skoogleme.com',
+    github: 'https://github.com/jdlee6/Skoogle',
+    demo: 'https://youtu.be/ojG7EGgkLhY'
   },
   {
     key: 3,
-    image:
-      'https://images.unsplash.com/photo-1553969420-fb915228af51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80',
-    title: 'dummy title 3',
+    image: 'https://imgur.com/44HCOfe.png',
+    title: 'EchoBot',
     description:
-      'ignore this. this is just dummy description for project number 3',
-    live: 'Live',
-    github: 'Github'
+      'EchoBot is a Discord bot that retrieves real time cryptocurrency data and also has charting & conversion features.',
+    live:
+      'https://discordapp.com/api/oauth2/authorize?client_id=573563489629634561&permissions=0&scope=bot',
+    github: 'https://github.com/jdlee6/EchoBot',
+    demo: 'https://youtu.be/LGaGIZ4AlGw'
   },
   {
     key: 4,
-    image:
-      'https://images.unsplash.com/photo-1550596334-7bb40a71b6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-    title: 'dummy title 4',
+    image: 'https://imgur.com/KVrmpJh.png',
+    title: 'Alien Invasion',
     description:
-      'ignore this. this is just dummy description for project number 4'
-  },
-  {
-    key: 5,
-    image:
-      'https://images.unsplash.com/photo-1550640964-4775934de4af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-    title: 'dummy title 5',
-    description:
-      'ignore this. this is just dummy description for project number 5',
-    live: 'Live',
-    github: 'Github'
+      'Alien Invasion is a game created in Python that focuses on object oriented programming.',
+    github: 'https://github.com/jdlee6/AlienInvasion',
+    demo: 'https://youtu.be/GjoScft4geI'
   }
 ];

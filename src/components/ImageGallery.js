@@ -14,7 +14,7 @@ function App() {
       } else {
         setIndex(index + 1);
       }
-    }, 4000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [index]);
@@ -43,8 +43,22 @@ function App() {
           />
         ))}
       </Gallery>
+
       <div className="project-header">{projects[index].title}</div>
       <div className="project-description">{projects[index].description}</div>
+      <br />
+
+      <div className="project-links">
+        <a href={projects[index].demo}>Demo</a>
+      </div>
+      {index < 3 && (
+        <div className="project-links">
+          <a href={projects[index].live}>Live</a>{' '}
+        </div>
+      )}
+      <div className="project-links">
+        <a href={projects[index].github}>Github</a>{' '}
+      </div>
     </>
   );
 }

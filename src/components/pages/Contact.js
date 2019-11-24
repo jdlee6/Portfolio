@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ContactForm from '../ContactForm';
 
+
 export class Contact extends Component {
   render() {
     return (
@@ -13,6 +14,8 @@ export class Contact extends Component {
 
         <div className="contact-container">
           <ContactForm />
+
+
         </div>
       </div>
     );

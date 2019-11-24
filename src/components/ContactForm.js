@@ -53,28 +53,28 @@ export default function ContactForm() {
     e.preventDefault();
     const { name, email, subject, message } = values;
 
-    // let templateParams = {
-    //   from_name: email,
-    //   to_name: 'jdlee6@buffalo.edu',
-    //   subject: subject,
-    //   message_html: message
-    // };
+    let templateParams = {
+      from_name: email,
+      to_name: 'jdlee6@buffalo.edu',
+      subject: subject,
+      message_html: message
+    };
 
-    // emailjs
-    //   .send(
-    //     'my_mail',
-    //     'template_I1Mqok9f',
-    //     templateParams,
-    //     'user_oxnZeP7DmKFhOMsuX4OFZ'
-    //   )
-    //   .then(
-    //     result => {
-    //       console.log(result.text);
-    //     },
-    //     error => {
-    //       console.log(error.text);
-    //     }
-    //   );
+    emailjs
+      .send(
+        'my_mail',
+        'template_I1Mqok9f',
+        templateParams,
+        'user_oxnZeP7DmKFhOMsuX4OFZ'
+      )
+      .then(
+        result => {
+          console.log(result.text);
+        },
+        error => {
+          console.log(error.text);
+        }
+      );
 
     reset();
   }

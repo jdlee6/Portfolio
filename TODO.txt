@@ -10,6 +10,9 @@
 ####CHANGES#####
 ################
 
+- fixed safari bug (module error)
+- added page transitions with react reveal
+
 - github/linkedin/resume svg icon (placed in navbar)
   - requires http:// in the beginning or doesn't redirect externally
   * resume pdf link

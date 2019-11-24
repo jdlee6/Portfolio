@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ImageGallery from '../ImageGallery';
+import Fade from 'react-reveal/Fade';
 
 export class Projects extends Component {
   render() {
@@ -10,7 +11,9 @@ export class Projects extends Component {
         </div>
 
         <div className="center">
-          <ImageGallery />
+          <Fade bottom>
+            <ImageGallery />
+          </Fade>
         </div>
       </div>
     );

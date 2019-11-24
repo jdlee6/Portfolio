@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutPaper from '../AboutPaper';
 import { useSpring, animated } from 'react-spring';
+import Fade from 'react-reveal/Fade';
 
 export default function About(props) {
   const style = useSpring({
@@ -40,9 +41,11 @@ export default function About(props) {
       </div>
 
       <div className="about-paper">
-        <animated.div style={style}>
-          <AboutPaper />
-        </animated.div>
+        <Fade bottom>
+          <animated.div style={style}>
+            <AboutPaper />
+          </animated.div>
+        </Fade>
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import { ReactComponent as Git } from '../../media/icons/git.svg';
 import { ReactComponent as Django } from '../../media/icons/django.svg';
 import { ReactComponent as Flask } from '../../media/icons/flask.svg';
 import { ReactComponent as R } from '../../media/icons/react.svg';
+import Fade from 'react-reveal/Fade';
 
 const style = {
   width: '25%',
@@ -27,19 +28,21 @@ export class Skills extends Component {
           <div className="section-title">Skills</div>
         </div>
 
-        <div className="centerskills">
-          <Python style={style} />
-          <Javascript style={style} />
-          <Html style={style} />
-          <Css style={style} />
-          <Postgresql style={style} />
-          <Flask style={style} />
-          <Django style={style} />
-          <R style={style} />
-          <Linux style={style} />
-          <Docker style={style} />
-          <Git style={style} />
-        </div>
+        <Fade bottom>
+          <div className="centerskills">
+            <Python style={style} />
+            <Javascript style={style} />
+            <Html style={style} />
+            <Css style={style} />
+            <Postgresql style={style} />
+            <Flask style={style} />
+            <Django style={style} />
+            <R style={style} />
+            <Linux style={style} />
+            <Docker style={style} />
+            <Git style={style} />
+          </div>
+        </Fade>
       </div>
     );
   }

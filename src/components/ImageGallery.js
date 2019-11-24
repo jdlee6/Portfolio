@@ -14,7 +14,7 @@ function App() {
       } else {
         setIndex(index + 1);
       }
-    }, 8000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [index]);

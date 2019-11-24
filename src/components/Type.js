@@ -1,22 +1,35 @@
-import Typing from 'react-typing-animation';
+import Typist from 'react-typist';
 import React, { Component } from 'react';
 
 export class Type extends Component {
+  state = {
+    typing: true
+  }
+
+  done = () => {
+    this.setState({typing: false}, () => {
+      this.setState({typing: true})
+    });
+  }
+
   render() {
     return (
       <div className="type">
-        <Typing loop={true} hideCursor={false}>
-          <Typing.Speed ms={2} />
-          <home-text>Software Developer</home-text>
-          <Typing.Delay ms={2500} />
-          <Typing.Backspace count={19} />
-          <home-text>Backend Developer</home-text>
-          <Typing.Delay ms={2500} />
-          <Typing.Backspace count={19} />
-          <home-text>Designer & Creator</home-text>
-          <Typing.Delay ms={2500} />
-          <Typing.Backspace count={25} />
-        </Typing>
+        <home-text>
+          {this.state.typing ? 
+          <Typist onTypingDone={this.done} cursor={{blink:true}} avgTypingDelay={70}>
+            Software Developer
+            <Typist.Delay ms={2500} />
+            <Typist.Backspace count={20} />
+            Backend Developer
+            <Typist.Delay ms={2500} />
+            <Typist.Backspace count={20} />
+            Designer & Creator
+            <Typist.Delay ms={2500} />
+            <Typist.Backspace count={20} />
+          </Typist>
+          : ' '}
+        </home-text>
       </div>
     );
   }

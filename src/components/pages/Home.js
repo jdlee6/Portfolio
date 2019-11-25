@@ -6,7 +6,13 @@ export class Home extends Component {
     return (
       <div className="home-section" id="home">
         <Type />
+        <div class="arrow">
+          <span></span>
+          <span></span>
+        </div>
       </div>
+
+
     );
   }
 }

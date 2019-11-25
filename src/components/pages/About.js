@@ -36,6 +36,7 @@ export default function About(props) {
 
   return (
     <div className="about-section" id="about">
+      
       <div className="container">
         <div className="section-title">About Me</div>
       </div>

@@ -1,7 +1,7 @@
 export const projects = [
   {
     key: 1,
-    image: 'https://imgur.com/Fs4ecRU.png',
+    image: 'https://imgur.com/23qkNHV.png',
     title: 'Konek',
     description:
       'Konek is a social network created with Flask that features many of the core functionalities of Twitter.',
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     key: 2,
-    image: 'https://imgur.com/kf6PhNM.png',
+    image: 'https://imgur.com/ubv39wQ.png',
     title: 'Skoogle',
     description:
       'Skoogle is a web application created with Flask that finds skate parks within a desired location & mile radius.',
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     key: 3,
-    image: 'https://imgur.com/44HCOfe.png',
+    image: 'https://imgur.com/f4uZoH5.png',
     title: 'EchoBot',
     description:
       'EchoBot is a Discord bot that retrieves real time cryptocurrency data and also has charting & conversion features.',
@@ -32,7 +32,7 @@ export const projects = [
   },
   {
     key: 4,
-    image: 'https://imgur.com/KVrmpJh.png',
+    image: 'https://imgur.com/pjbCZRK.png',
     title: 'Alien Invasion',
     description:
       'Alien Invasion is a game created in Python that focuses on object oriented programming.',

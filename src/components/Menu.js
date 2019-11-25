@@ -4,7 +4,7 @@ import Nav from './Nav';
 
 export class Menu extends Component {
   state = {
-    open: false
+    open: true
   };
 
   handleClick() {
@@ -21,10 +21,10 @@ export class Menu extends Component {
           menuClicked={this.handleClick.bind(this)}
           width={18}
           height={15}
-          strokeWidth={1}
+          strokeWidth={2}
           rotate={0}
-          color="black"
-          borderRadius={0}
+          color="gray"
+          borderRadius={1}
           animationDuration={0.5}
         />
         {this.state.open ? (

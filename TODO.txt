@@ -4,12 +4,16 @@
 
 - form validation (email rejex?)
 - generate readme 
-- crop pictures (don't show desktop)
 
 
 ################
 ####CHANGES#####
 ################
+
+- arrow css 
+-default open menu
+- crop pictures
+
 
 - fixed safari bug (module error)
 - added page transitions with react reveal

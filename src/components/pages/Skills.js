@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ReactComponent as Linux } from '../../media/icons/linux.svg';
 import { ReactComponent as Python } from '../../media/icons/python.svg';
 import { ReactComponent as Javascript } from '../../media/icons/javascript.svg';
@@ -20,32 +20,28 @@ const style = {
   paddingBottom: '5%'
 };
 
-export class Skills extends Component {
-  render() {
-    return (
-      <div className="skills-section" id="skills">
-        <div className="container">
-          <div className="section-title">Skills</div>
-        </div>
-
-        <Fade bottom>
-          <div className="centerskills">
-            <Python style={style} />
-            <Javascript style={style} />
-            <Html style={style} />
-            <Css style={style} />
-            <Postgresql style={style} />
-            <Flask style={style} />
-            <Django style={style} />
-            <R style={style} />
-            <Linux style={style} />
-            <Docker style={style} />
-            <Git style={style} />
-          </div>
-        </Fade>
+export default function Skills() {
+  return (
+    <div className="skills-section" id="skills">
+      <div className="container">
+        <div className="section-title">Skills</div>
       </div>
-    );
-  }
-}
 
-export default Skills;
+      <Fade bottom>
+        <div className="centerskills">
+          <Python style={style} />
+          <Javascript style={style} />
+          <Html style={style} />
+          <Css style={style} />
+          <Postgresql style={style} />
+          <Flask style={style} />
+          <Django style={style} />
+          <R style={style} />
+          <Linux style={style} />
+          <Docker style={style} />
+          <Git style={style} />
+        </div>
+      </Fade>
+    </div>
+  );
+}

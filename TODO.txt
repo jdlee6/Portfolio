@@ -10,28 +10,9 @@
 ####CHANGES#####
 ################
 
-- arrow css 
--default open menu
-- crop pictures
-
-
-- fixed safari bug (module error)
-- added page transitions with react reveal
-
-- github/linkedin/resume svg icon (placed in navbar)
-  - requires http:// in the beginning or doesn't redirect externally
-  * resume pdf link
-    - had to be in the public directory (href="/resume_public.pdf')
-
-- tweaked link hover css 
-
-* replaced dummy data project descriptions
-  - changed titles/captions/pictures
-  - github link 
-  - live link
-    - conditional for live link (projects section)
-  - demo link
-
+- updated projects
+- updated resume pdf
+- refactored class components into hooks
 
 ################
 ####COMPLETE####
@@ -56,3 +37,19 @@
 - font replacement for aboutpaper & replaced dummy data [x] 
 - favicon [x]
 - domain name (github or buy my own) [x]
+- arrow css 
+- default open menu
+- crop pictures
+- fixed safari bug (module error)
+- added page transitions with react reveal
+- github/linkedin/resume svg icon (placed in navbar)
+  - requires http:// in the beginning or doesn't redirect externally
+  * resume pdf link
+    - had to be in the public directory (href="/resume_public.pdf')
+- tweaked link hover css 
+* replaced dummy data project descriptions
+  - changed titles/captions/pictures
+  - github link 
+  - live link
+    - conditional for live link (projects section)
+  - demo link

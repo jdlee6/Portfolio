@@ -51,7 +51,7 @@ export default function ContactForm() {
   // submit logic/send email
   function handleSubmit(e) {
     e.preventDefault();
-    const { name, email, subject, message } = values;
+    const { email, subject, message } = values;
 
     let templateParams = {
       from_name: email,

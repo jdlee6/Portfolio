@@ -46,12 +46,15 @@ function App() {
 
       <div className="project-header">{projects[index].title}</div>
       <div className="project-description">{projects[index].description}</div>
+      <div className="project-description">
+        <em>{projects[index].stack}</em>
+      </div>
       <br />
 
       <div className="project-links">
         <a href={projects[index].demo}>Demo</a>
       </div>
-      {index < 3 && (
+      {index !== 0 && index !== 4 && (
         <div className="project-links">
           <a href={projects[index].live}>Live</a>{' '}
         </div>

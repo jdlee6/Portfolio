@@ -1,38 +1,37 @@
 import Typist from 'react-typist';
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-export class Type extends Component {
-  state = {
-    typing: true
-  }
+export default function Type() {
+  const [typing, setTyping] = useState(true);
 
-  done = () => {
-    this.setState({typing: false}, () => {
-      this.setState({typing: true})
-    });
-  }
+  const done = () => {
+    setTyping(false);
+    setTyping(true);
+  };
 
-  render() {
-    return (
-      <div className="type">
-        <home-text>
-          {this.state.typing ? 
-          <Typist onTypingDone={this.done} cursor={{blink:true}} avgTypingDelay={70}>
-            Software Developer
-            <Typist.Delay ms={2500} />
-            <Typist.Backspace count={20} />
+  return (
+    <div className="type">
+      <home-text>
+        {typing ? (
+          <Typist
+            onTypingDone={done}
+            cursor={{ blink: true }}
+            avgTypingDelay={70}
+          >
             Backend Developer
             <Typist.Delay ms={2500} />
             <Typist.Backspace count={20} />
+            Full Stack Developer
+            <Typist.Delay ms={2500} />
+            <Typist.Backspace count={22} />
             Designer & Creator
             <Typist.Delay ms={2500} />
             <Typist.Backspace count={20} />
           </Typist>
-          : ' '}
-        </home-text>
-      </div>
-    );
-  }
+        ) : (
+          ' '
+        )}
+      </home-text>
+    </div>
+  );
 }
-
-export default Type;

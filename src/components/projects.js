@@ -1,11 +1,11 @@
 export const projects = [
   {
     key: 1,
-    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/archivum.png',
+    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/archivum_final.png',
     title: 'Archivum',
     description:
-      'Archivum is a fully responsive web application that displays a collection of lookbooks from various clothing brands where users are able to log in and like/share their favorite brands & looks.',
-    stack: 'Python, Javascript, HTML, CSS, Django, Django Rest Framework, React.js, PostgreSQL',
+      'Archivum is a web application that displays a collection of lookbooks from various clothing brands where users can like/share their favorite looks.',
+    stack: 'Python, Javascript, Django, React.js, PostgreSQL',
     live: 'https://archivum.herokuapp.com',
     github: 'https://github.com/jdlee6/Archivum',
     demo: 'https://youtu.be/o250tGUZQCc'

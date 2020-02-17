@@ -1,17 +1,18 @@
 export const projects = [
   {
     key: 1,
-    image: 'http://d1n7cobwsi8961.cloudfront.net/projects/archivum_beta.jpg',
-    title: 'Archivum (WiP)',
+    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/archivum.png',
+    title: 'Archivum',
     description:
-      'Archivum is a Django & React.js web application that displays a collection of lookbooks from various clothing brands where users are able to log in and like their favorite brands & looks.',
-    stack: 'Python, Javascript, HTML, CSS, Django, React.js, PostgreSQL',
+      'Archivum is a fully responsive web application that displays a collection of lookbooks from various clothing brands where users are able to log in and like/share their favorite brands & looks.',
+    stack: 'Python, Javascript, HTML, CSS, Django, Django Rest Framework, React.js, PostgreSQL',
+    live: 'https://archivum.herokuapp.com',
     github: 'https://github.com/jdlee6/Archivum',
     demo: 'https://youtu.be/o250tGUZQCc'
   },
   {
     key: 2,
-    image: 'http://d1n7cobwsi8961.cloudfront.net/projects/konek.png',
+    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/konek.png',
     title: 'Konek',
     description:
       'Konek is a social network created with Flask that features many of the core functionalities of Twitter.',
@@ -22,7 +23,7 @@ export const projects = [
   },
   {
     key: 3,
-    image: 'http://d1n7cobwsi8961.cloudfront.net/projects/skoogle.png',
+    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/skoogle.png',
     title: 'Skoogle',
     description:
       'Skoogle is a web application created with Flask that finds skate parks within a desired location & mile radius.',
@@ -33,7 +34,7 @@ export const projects = [
   },
   {
     key: 4,
-    image: 'http://d1n7cobwsi8961.cloudfront.net/projects/echobot.png',
+    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/echobot.png',
     title: 'EchoBot',
     description:
       'EchoBot is a Discord bot that retrieves real time cryptocurrency data and also has charting & conversion features.',
@@ -45,7 +46,7 @@ export const projects = [
   },
   {
     key: 5,
-    image: 'http://d1n7cobwsi8961.cloudfront.net/projects/alien_invasion.png',
+    image: 'https://d1n7cobwsi8961.cloudfront.net/projects/alien_invasion.png',
     title: 'Alien Invasion',
     description:
       'Alien Invasion is a game created in Python that focuses on object oriented programming.',

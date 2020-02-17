@@ -9,15 +9,12 @@
 ################
 ####CHANGES#####
 ################
+- archivum final pic & live link
 
-- updated projects
-- updated resume pdf
-- refactored class components into hooks
 
 ################
 ####COMPLETE####
 ################
-
 - React Scroll [x]
 - Resume & Skills [x]
 - added fade in for menu open [x]
@@ -53,3 +50,6 @@
   - live link
     - conditional for live link (projects section)
   - demo link
+- updated projects
+- updated resume pdf
+- refactored class components into hooks

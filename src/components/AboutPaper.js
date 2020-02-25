@@ -32,8 +32,7 @@ export default function AboutPaper() {
           ideas and transforming them into features and products. I am a fast
           learner who <em>enjoys</em> exploring new technologies and frameworks.
           <br />
-          <br />I am currently looking for a full time opportunity that will
-          enable me to grow as a developer.
+          <br />I am not currently looking for a full time opportunity.
         </Typography>
       </ThemeProvider>
     </Paper>

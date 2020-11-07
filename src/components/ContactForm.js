@@ -6,20 +6,19 @@ import * as emailjs from 'emailjs-com';
 
 const useStyles = makeStyles(theme => ({
   container: {
-    display: 'flex',
-    flexWrap: 'wrap'
+    marginRight: '14%'
   },
   textField: {
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
-    width: '80%',
+    width: '100%',
     paddingBottom: '1.5%'
   },
   button: {
-    margin: theme.spacing(1)
+    // margin: theme.spacing(1)
   },
   input: {
-    display: 'none'
+    // display: 'none'
   }
 }));
 
@@ -83,55 +82,61 @@ export default function ContactForm() {
 
   return (
     <div className={classes.container}>
-      <div>
-        <TextField
-          label="Name"
-          name="name"
-          value={values.name}
-          className={classes.textField}
-          margin="dense"
-          variant="outlined"
-          onChange={handleChange}
-        />
-        <TextField
-          label="Email"
-          name="email"
-          value={values.email}
-          className={classes.textField}
-          margin="dense"
-          variant="outlined"
-          onChange={handleChange}
-        />
-        <TextField
-          label="Subject"
-          name="subject"
-          value={values.subject}
-          className={classes.textField}
-          margin="dense"
-          variant="outlined"
-          onChange={handleChange}
-        />
-        <TextField
-          label="Message"
-          name="message"
-          multiline
-          rows="4"
-          value={values.message}
-          className={classes.textField}
-          margin="normal"
-          variant="outlined"
-          onChange={handleChange}
-        />
-        <br />
-        <Button
-          size="small"
-          variant="outlined"
-          className={classes.button}
-          type="submit"
-          onClick={handleSubmit}
-        >
-          Submit
+      <div className="container">
+        <div className="row">
+          <div className="col offset-6">
+          </div>
+        </div>
+        <div>
+          <TextField
+            label="Name"
+            name="name"
+            value={values.name}
+            className={classes.textField}
+            margin="dense"
+            variant="outlined"
+            onChange={handleChange}
+          />
+          <TextField
+            label="Email"
+            name="email"
+            value={values.email}
+            className={classes.textField}
+            margin="dense"
+            variant="outlined"
+            onChange={handleChange}
+          />
+          <TextField
+            label="Subject"
+            name="subject"
+            value={values.subject}
+            className={classes.textField}
+            margin="dense"
+            variant="outlined"
+            onChange={handleChange}
+          />
+          <TextField
+            label="Message"
+            name="message"
+            multiline
+            rows="4"
+            value={values.message}
+            className={classes.textField}
+            margin="normal"
+            variant="outlined"
+            onChange={handleChange}
+          />
+          <br />
+          <Button
+            size="small"
+            variant="outlined"
+            className={classes.button}
+            type="submit"
+            onClick={handleSubmit}
+          >
+            Submit
         </Button>
+        </div>
       </div>
     </div>
   );

@@ -27,12 +27,11 @@ export default function AboutPaper() {
         <Typography variant="h3">
           Hi, my name is <em>Joe</em>.
           <br />
-          <br />I am a self taught software developer based in New York City
-          with experience in Python & Javascript. I <em>love</em> manifesting
+          <br />I am a <em>Full Stack Web Developer</em> with experience in Typescript & Python. I was born and raised in New York City but I currently reside in San Diego, CA. I <em>love</em> manifesting
           ideas and transforming them into features and products. I am a fast
           learner who <em>enjoys</em> exploring new technologies and frameworks.
           <br />
-          <br />I am not currently looking for employment.
+          <br />I am currently looking for employment.
         </Typography>
       </ThemeProvider>
     </Paper>

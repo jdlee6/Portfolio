@@ -10,7 +10,7 @@ export default function Contact() {
       </div>
 
       <Fade bottom>
-        <div className="contact-message">Feel free to leave me a message!</div>
+        {/* <div className="contact-message">Feel free to leave me a message!</div> */}
 
         <div className="contact-container">
           <ContactForm />

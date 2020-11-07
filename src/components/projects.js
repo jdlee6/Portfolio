@@ -28,7 +28,6 @@ export const projects = [
     description:
       'Skoogle is a web application created with Flask that finds skate parks within a desired location & mile radius.',
     stack: 'Python, HTML, CSS, Flask, PostgreSQL, AsyncIO',
-    live: 'https://skoogleme.com',
     github: 'https://github.com/jdlee6/Skoogle',
     demo: 'https://youtu.be/ojG7EGgkLhY'
   },

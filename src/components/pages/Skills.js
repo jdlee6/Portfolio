@@ -9,7 +9,10 @@ import { ReactComponent as Docker } from '../../media/icons/docker.svg';
 import { ReactComponent as Git } from '../../media/icons/git.svg';
 import { ReactComponent as Django } from '../../media/icons/django.svg';
 import { ReactComponent as Flask } from '../../media/icons/flask.svg';
-import { ReactComponent as R } from '../../media/icons/react.svg';
+import { ReactComponent as Re } from '../../media/icons/react.svg';
+import { ReactComponent as Redux } from '../../media/icons/redux.svg';
+import { ReactComponent as Electron } from '../../media/icons/electron.svg';
+import { ReactComponent as Typescript } from '../../media/icons/typescript.svg';
 import Fade from 'react-reveal/Fade';
 
 const style = {
@@ -29,19 +32,22 @@ export default function Skills() {
 
       <Fade bottom>
         <div className="centerskills">
-          <Python style={style} />
+          <Typescript style={style} />
           <Javascript style={style} />
+          <Python style={style} />
           <Html style={style} />
           <Css style={style} />
-          <Postgresql style={style} />
           <Flask style={style} />
           <Django style={style} />
-          <R style={style} />
+          <Re style={style} />
+          <Redux style={style} />
+          <Electron style={style} />
+          <Postgresql style={style} />
           <Linux style={style} />
           <Docker style={style} />
           <Git style={style} />
         </div>
       </Fade>
-    </div>
+    </div >
   );
 }

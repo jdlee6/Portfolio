@@ -18,7 +18,7 @@ export default function Type() {
             cursor={{ blink: true }}
             avgTypingDelay={70}
           >
-            Backend Developer
+            Frontend Developer
             <Typist.Delay ms={2500} />
             <Typist.Backspace count={20} />
             Full Stack Developer
@@ -29,8 +29,8 @@ export default function Type() {
             <Typist.Backspace count={20} />
           </Typist>
         ) : (
-          ' '
-        )}
+            ' '
+          )}
       </home-text>
     </div>
   );

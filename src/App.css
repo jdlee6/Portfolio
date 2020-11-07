@@ -231,28 +231,27 @@ svg:hover {
 }
 
 .centerskills {
-  padding-top: 5%;
+  margin-top: -1%;
   padding-left: 9%;
 }
 
 @media only screen and (max-width: 950px) {
   .centerskills {
     padding-top: 5%;
-    padding-left: 13%;
-    padding-right: 10%;
+    /* padding-left: 13%; */
+    /* padding-right: 4%; */
   }
 }
 
 @media only screen and (max-width: 600px) {
   .centerskills {
     padding-left: 10.5%;
-    padding-top: 13%;
     padding-right: 5%;
   }
 }
 
 .contact-container {
-  padding-top: 4%;
+  /* padding-top: 4%; */
   padding-left: 17%;
   padding-right: 8%;
   text-align: center;
@@ -283,7 +282,7 @@ svg:hover {
 
 @media only screen and (max-width: 950px) {
   .contact-container {
-    padding-top: 4%;
+    /* padding-top: 4%; */
     padding-left: 10%;
     padding-right: 8%;
     text-align: center;

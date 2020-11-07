@@ -1,6 +1,7 @@
 ################
 #####TO DO######
 ################
+- upload new resume
 
 - form validation (email rejex?)
 - generate readme 
@@ -9,8 +10,9 @@
 ################
 ####CHANGES#####
 ################
-- archivum final pic & live link
-
+- new svgs
+- tweaked summary
+- remove dead links
 
 ################
 ####COMPLETE####
@@ -53,3 +55,4 @@
 - updated projects
 - updated resume pdf
 - refactored class components into hooks
+- archivum final pic & live link

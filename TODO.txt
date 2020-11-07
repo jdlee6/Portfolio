@@ -1,8 +1,6 @@
 ################
 #####TO DO######
 ################
-- upload new resume
-
 - form validation (email rejex?)
 - generate readme 
 
@@ -13,6 +11,8 @@
 - new svgs
 - tweaked summary
 - remove dead links
+- upload new resume
+- updated linkedin link
 
 ################
 ####COMPLETE####

@@ -13,11 +13,11 @@ export default function Nav() {
         </a>
         <a
           className="contact-svg"
-          href="https://www.linkedin.com/in/joseph-lee-a90680151/"
+          href="https://www.linkedin.com/in/joe-lee-a90680151/"
         >
           <FontAwesomeIcon icon={faLinkedin} color="#FFF" />
         </a>
-        <a className="contact-svg" href={'/resume_public.pdf'}>
+        <a className="contact-svg" href={'/resume_public_v2.pdf'}>
           <FontAwesomeIcon icon={faFilePdf} color="#FFF" />
         </a>
       </div>

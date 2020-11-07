@@ -13,6 +13,7 @@ import { ReactComponent as Re } from '../../media/icons/react.svg';
 import { ReactComponent as Redux } from '../../media/icons/redux.svg';
 import { ReactComponent as Electron } from '../../media/icons/electron.svg';
 import { ReactComponent as Typescript } from '../../media/icons/typescript.svg';
+import { ReactComponent as Node } from '../../media/icons/nodejs.svg';
 import Fade from 'react-reveal/Fade';
 
 const style = {
@@ -37,10 +38,11 @@ export default function Skills() {
           <Python style={style} />
           <Html style={style} />
           <Css style={style} />
-          <Flask style={style} />
-          <Django style={style} />
           <Re style={style} />
           <Redux style={style} />
+          <Flask style={style} />
+          <Django style={style} />
+          <Node style={style} />
           <Electron style={style} />
           <Postgresql style={style} />
           <Linux style={style} />

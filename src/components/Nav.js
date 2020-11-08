@@ -17,7 +17,7 @@ export default function Nav() {
         >
           <FontAwesomeIcon icon={faLinkedin} color="#FFF" />
         </a>
-        <a className="contact-svg" href={'/resume_public_v2.pdf'}>
+        <a className="contact-svg" href={'/resume_final.pdf'}>
           <FontAwesomeIcon icon={faFilePdf} color="#FFF" />
         </a>
       </div>

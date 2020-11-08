@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6db4f826.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7de863f2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7de863f2.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.6a869909.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6a869909.js.map",
+    "static/js/2.213ce2a6.chunk.js": "/Portfolio/static/js/2.213ce2a6.chunk.js",
+    "static/js/2.213ce2a6.chunk.js.map": "/Portfolio/static/js/2.213ce2a6.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.2cc46268a0f4664a0e956efdd46b2bd2.js": "/Portfolio/precache-manifest.2cc46268a0f4664a0e956efdd46b2bd2.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.6db4f826.chunk.css.map": "/Portfolio/static/css/main.6db4f826.chunk.css.map",
+    "static/media/App.css": "/Portfolio/static/media/220675.40925b9e.jpg",
+    "static/media/css.4e80617a.svg": "/Portfolio/static/media/css.4e80617a.svg",
+    "static/media/django.38030b6d.svg": "/Portfolio/static/media/django.38030b6d.svg",
+    "static/media/docker.0d48e158.svg": "/Portfolio/static/media/docker.0d48e158.svg",
+    "static/media/electron.7d7e44e6.svg": "/Portfolio/static/media/electron.7d7e44e6.svg",
+    "static/media/flask.acbde1ac.svg": "/Portfolio/static/media/flask.acbde1ac.svg",
+    "static/media/git.868c317d.svg": "/Portfolio/static/media/git.868c317d.svg",
+    "static/media/html.c9f65785.svg": "/Portfolio/static/media/html.c9f65785.svg",
+    "static/media/javascript.eaf1d7d3.svg": "/Portfolio/static/media/javascript.eaf1d7d3.svg",
+    "static/media/linux.2369f61a.svg": "/Portfolio/static/media/linux.2369f61a.svg",
+    "static/media/nodejs.401d2213.svg": "/Portfolio/static/media/nodejs.401d2213.svg",
+    "static/media/postgresql.fccf5abf.svg": "/Portfolio/static/media/postgresql.fccf5abf.svg",
+    "static/media/python.bcf22afb.svg": "/Portfolio/static/media/python.bcf22afb.svg",
+    "static/media/react.32bf05d1.svg": "/Portfolio/static/media/react.32bf05d1.svg",
+    "static/media/redux.3a331019.svg": "/Portfolio/static/media/redux.3a331019.svg",
+    "static/media/typescript.ed290bd3.svg": "/Portfolio/static/media/typescript.ed290bd3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a869909.js",
+    "static/js/2.213ce2a6.chunk.js",
+    "static/css/main.6db4f826.chunk.css",
+    "static/js/main.7de863f2.chunk.js"
+  ]
+}

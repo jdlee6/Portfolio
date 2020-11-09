@@ -31,7 +31,6 @@ export default function AboutPaper() {
           ideas and transforming them into features and products. I am a fast
           learner who <em>enjoys</em> exploring new technologies and frameworks.
           <br />
-          <br />I am currently looking for employment.
         </Typography>
       </ThemeProvider>
     </Paper>

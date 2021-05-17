@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="home-section" id="home">
       <Type />
-      <div class="arrow">
+      <div className="arrow">
         <span></span>
         <span></span>
       </div>

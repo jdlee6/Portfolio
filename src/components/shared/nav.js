@@ -49,6 +49,18 @@ export default function Nav() {
         <li>
           <Link
             activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
             to="projects"
             spy={true}
             smooth={true}
@@ -68,18 +80,6 @@ export default function Nav() {
             duration={500}
           >
             Skills
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            Contact
           </Link>
         </li>
       </ul>

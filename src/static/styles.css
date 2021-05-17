@@ -109,15 +109,25 @@ navbar ul li > .active,
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.contact-section {
+.experience-section {
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgb(248, 248, 248) 0%,
+    rgb(184, 216, 171) 40%,
+    rgb(159, 201, 158) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* .contact-section {
   height: 100vh;
   background: linear-gradient(
     to top,
     rgb(248, 248, 248) 0%,
     rgb(219, 210, 199) 40%,
     rgb(233, 190, 141) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
+  );
+} */
 
 .type {
   display: flex;
@@ -250,6 +260,23 @@ svg:hover {
   }
 }
 
+/* experience section */
+.experience-container {
+  padding-top: 6%;
+  /* padding-left: 17%;
+  padding-right: 8%; */
+  margin:auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .experience-container {
+    padding-top: 18%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
 .contact-container {
   /* padding-top: 4%; */
   padding-left: 17%;
@@ -308,12 +335,12 @@ svg:hover {
   }
 }
 
-span {
+/* span {
   font-family: 'Spectral', serif;
   font-size: 1em;
   font-weight: 500;
   color: rgb(0, 0, 0);
-}
+} */
 
 .contact-svg {
   font-size: 0.9rem;

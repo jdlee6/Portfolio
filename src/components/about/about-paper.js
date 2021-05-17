@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
 const theme = createMuiTheme({
   typography: {
     fontFamily: ['Spectral', 'serif'].join(','),
-    fontSize: '1rem'
+    fontSize: 5
   }
 });
 
@@ -32,7 +32,7 @@ export default function AboutPaper() {
           I was born and raised in New York City and currently reside in Queens, New York.
           <br />
           I am someone who <em>loves</em> manifesting
-          ideas and transforming them into features and products. 
+          ideas and transforming them into features and products.
           <br />
           I am a fast learner who <em>enjoys</em> exploring new technologies and frameworks.
           <br />

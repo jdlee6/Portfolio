@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutPaper from '../components/about/about-paper';
-import Timeline from '../components/experience/timeline';
 import { useSpring, animated } from 'react-spring';
 import Fade from 'react-reveal/Fade';
 
@@ -50,7 +49,6 @@ export default function About(props) {
           </animated.div>
         </Fade>
       </div>
-      {/* <Timeline /> */}
     </div>
   );
 }

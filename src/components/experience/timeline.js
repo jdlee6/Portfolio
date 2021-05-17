@@ -8,17 +8,28 @@ export default function Timeline() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentStyle={{ background: '#A9A9A9', color: '#fff' }}
+          // contentArrowStyle={{ borderRight: '7px solid white' }}
+          date="March 2019 - May 2021"
+          iconStyle={{ background: '#D5FFE4', color: '#fff' }}
         // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h4 className="vertical-timeline-element-subtitle">alwaysAI Inc.</h4>
+          <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
+          <h4>Full Stack Web Developer</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-        </p>
+            Typescript, Javascript, React.js, Redux.js, Node.js, Express.js, Koa.js, Electron.js, PostgreSQL, AWS
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: '#A9A9A9', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid white' }}
+          date="Present"
+          iconStyle={{ background: '#D5FFE4', color: '#fff' }}
+        // icon={<WorkIcon />}
+        >
+          <h4>Currently looking for new opportunities</h4>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </>

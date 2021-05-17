@@ -1,18 +1,16 @@
 ################
 #####TO DO######
 ################
-- form validation (email rejex?)
-- generate readme 
 
 
 ################
 ####CHANGES#####
 ################
-- new svgs
-- tweaked summary
-- remove dead links
-- upload new resume
-- updated linkedin link
+- create experience section
+- hide contact me section
+- implement timeline component within experience section
+- populate timeline component with data
+
 
 ################
 ####COMPLETE####
@@ -56,3 +54,10 @@
 - updated resume pdf
 - refactored class components into hooks
 - archivum final pic & live link
+- form validation (email rejex?)
+- generate readme 
+- new svgs
+- tweaked summary
+- remove dead links
+- upload new resume
+- updated linkedin link

@@ -10,7 +10,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#A9A9A9', color: '#fff' }}
           // contentArrowStyle={{ borderRight: '7px solid white' }}
-          date="March 2019 - May 2021"
+          date="March 2020 - May 2021"
           iconStyle={{ background: '#D5FFE4', color: '#fff' }}
         // icon={<WorkIcon />}
         >

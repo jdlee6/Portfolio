@@ -1,5 +1,6 @@
 import React from 'react';
-import AboutPaper from '../AboutPaper';
+import AboutPaper from '../components/about/about-paper';
+import Timeline from '../components/experience/timeline';
 import { useSpring, animated } from 'react-spring';
 import Fade from 'react-reveal/Fade';
 
@@ -36,7 +37,7 @@ export default function About(props) {
 
   return (
     <div className="about-section" id="about">
-      
+
       <div className="container">
         <div className="section-title">About Me</div>
       </div>
@@ -45,9 +46,11 @@ export default function About(props) {
         <Fade bottom>
           <animated.div style={style}>
             <AboutPaper />
+
           </animated.div>
         </Fade>
       </div>
+      {/* <Timeline /> */}
     </div>
   );
 }

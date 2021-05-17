@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
-import Nav from './Nav';
+import Nav from './nav';
 
 export default function Menu(props) {
   const [open, setOpen] = useState(true);

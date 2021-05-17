@@ -1,5 +1,5 @@
 import React from 'react';
-import Type from '../Type';
+import Type from '../components/home/type';
 
 export default function Home() {
   return (

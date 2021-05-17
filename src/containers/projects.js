@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageGallery from '../ImageGallery';
+import ImageGallery from '../components/projects/image-gallery';
 import Fade from 'react-reveal/Fade';
 
 export default function Projects() {

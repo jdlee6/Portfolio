@@ -9,7 +9,7 @@ import Menu from './components/shared/menu';
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './static/styles.css';
 
-function App() {
+function Main() {
   return (
     <div className="App">
       <Menu />
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;

@@ -17,9 +17,14 @@ export default function Timeline() {
           <h4 className="vertical-timeline-element-subtitle">alwaysAI Inc.</h4>
           <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
           <h4>Full Stack Web Developer</h4>
-          <p>
-            Typescript, Javascript, React.js, Redux.js, Node.js, Express.js, Koa.js, Electron.js, PostgreSQL, AWS
-          </p>
+          <br />
+          <span>Developed the user interface for the company’s dashboard with <em>React.js & Redux.js.</em></span>
+          <br />
+          <br />
+          <span>Contributed significant development efforts to build the desktop installer & model training desktop
+            application with <em>Electron.js, React.js, Node.js, Koa.js & socket.io.</em>
+          </span>
+          <br />
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

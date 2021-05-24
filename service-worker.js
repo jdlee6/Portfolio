@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://www.imjoelee.com/precache-manifest.affd9881ebc39ce748da788271421913.js"
+  "https://www.imjoelee.com/precache-manifest.068cc6eff27b2df1ed7acb9513bb9415.js"
 );
 
 self.addEventListener('message', (event) => {

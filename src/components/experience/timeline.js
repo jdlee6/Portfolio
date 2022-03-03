@@ -16,15 +16,17 @@ export default function Timeline() {
         >
           <h4 className="vertical-timeline-element-subtitle">alwaysAI Inc.</h4>
           <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
-          <h4>Full Stack Web Developer</h4>
           <br />
+          <h4>Software Engineer</h4>
+          <h5>March 2020 - May 2021</h5>
+          {/* <br />
           <span>Developed the user interface for the company’s dashboard with <em>React.js & Redux.js.</em></span>
           <br />
           <br />
           <span>Contributed significant development efforts to build the desktop installer & model training desktop
             application with <em>Electron.js, React.js, Node.js, Koa.js & socket.io.</em>
           </span>
-          <br />
+          <br /> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -34,7 +36,11 @@ export default function Timeline() {
           iconStyle={{ background: '#D5FFE4', color: '#fff' }}
         // icon={<WorkIcon />}
         >
-          <h4>Currently looking for new opportunities</h4>
+          <h4 className="vertical-timeline-element-subtitle">Scanifly</h4>
+          <h4 className="vertical-timeline-element-subtitle">New York, New York</h4>
+          <br />
+          <h4>Full Stack Web Developer</h4>
+          <h5>July 2021 - Present</h5>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </>

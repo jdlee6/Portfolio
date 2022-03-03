@@ -29,7 +29,7 @@ export default function AboutPaper() {
           <br />
           <br />I am a <em>Full Stack Web Developer</em> with experience in Typescript & Python.
           <br />
-          I was born and raised in New York City and currently reside in Queens, New York.
+          I was born and raised in New York City and currently reside in Brooklyn, New York.
           <br />
           I am someone who <em>loves</em> manifesting
           ideas and transforming them into features and products.

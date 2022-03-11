@@ -16,7 +16,6 @@ export default function Timeline() {
         >
           <h4 className="vertical-timeline-element-subtitle">alwaysAI Inc.</h4>
           <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
-          <br />
           <h4>Software Engineer</h4>
           {/* <br />
           <span>Developed the user interface for the company’s dashboard with <em>React.js & Redux.js.</em></span>
@@ -37,7 +36,6 @@ export default function Timeline() {
         >
           <h4 className="vertical-timeline-element-subtitle">Scanifly</h4>
           <h4 className="vertical-timeline-element-subtitle">New York, New York</h4>
-          <br />
           <h4>Full Stack Web Developer</h4>
         </VerticalTimelineElement>
       </VerticalTimeline>

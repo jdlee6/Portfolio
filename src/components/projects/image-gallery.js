@@ -46,10 +46,7 @@ function App() {
 
       <div className="project-header">{projects[index].title}</div>
       <div className="project-description">{projects[index].description}</div>
-      <div className="project-description">
-        <em>{projects[index].stack}</em>
-      </div>
-      <br />
+      <div className="project-stack"><em>{projects[index].stack}</em></div>
 
       <div className="project-links">
         <a href={projects[index].demo}>Demo</a>

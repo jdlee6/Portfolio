@@ -213,6 +213,12 @@ home-text {
   color: black
 }
 
+.project-stack {
+  text-align: center;
+  color: black;
+  padding-bottom: 4px;
+}
+
 .project-links {
   text-transform: uppercase;
   font-size: 12px;

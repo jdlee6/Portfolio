@@ -18,7 +18,6 @@ export default function Timeline() {
           <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
           <br />
           <h4>Software Engineer</h4>
-          <h5>March 2020 - May 2021</h5>
           {/* <br />
           <span>Developed the user interface for the company’s dashboard with <em>React.js & Redux.js.</em></span>
           <br />
@@ -32,7 +31,7 @@ export default function Timeline() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#A9A9A9', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid white' }}
-          date="Present"
+          date="July 2021 - Present"
           iconStyle={{ background: '#D5FFE4', color: '#fff' }}
         // icon={<WorkIcon />}
         >
@@ -40,7 +39,6 @@ export default function Timeline() {
           <h4 className="vertical-timeline-element-subtitle">New York, New York</h4>
           <br />
           <h4>Full Stack Web Developer</h4>
-          <h5>July 2021 - Present</h5>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </>

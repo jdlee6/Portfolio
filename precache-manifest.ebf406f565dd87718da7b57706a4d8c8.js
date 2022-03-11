@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7df516998a3211c9d43d219720e28de7",
+    "revision": "46f3ff4c3906cc73cd7b66a71d871c7d",
     "url": "https://www.imjoelee.com/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://www.imjoelee.com/static/css/2.22ca87da.chunk.css"
   },
   {
-    "revision": "fa03dc97b7a4c81edb05",
-    "url": "https://www.imjoelee.com/static/css/main.f11816b8.chunk.css"
+    "revision": "471f22f552ca33bc1cdc",
+    "url": "https://www.imjoelee.com/static/css/main.2c640454.chunk.css"
   },
   {
     "revision": "79d77ae1be3f1f66c5e7",
     "url": "https://www.imjoelee.com/static/js/2.24ef7136.chunk.js"
   },
   {
-    "revision": "fa03dc97b7a4c81edb05",
-    "url": "https://www.imjoelee.com/static/js/main.29c9a774.chunk.js"
+    "revision": "471f22f552ca33bc1cdc",
+    "url": "https://www.imjoelee.com/static/js/main.cff9f24d.chunk.js"
   },
   {
     "revision": "d8ee6e44fe7a4fc77692",

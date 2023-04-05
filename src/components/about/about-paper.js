@@ -28,14 +28,8 @@ export default function AboutPaper() {
           Hi, my name is <em>Joe</em>.
           <br />
           <br />I am a <em>Full Stack Web Developer</em> with experience in Typescript & Python.
-          <br />
-          I was born and raised in New York City and currently reside in Brooklyn, New York.
-          <br />
           I am someone who <em>loves</em> manifesting
           ideas and transforming them into features and products.
-          <br />
-          I am a fast learner who <em>enjoys</em> exploring new technologies and frameworks.
-          <br />
           <br />
           If you're interested in having any type of website work done, from something simple as a portfolio website to a complex web application like Twitter, feel free to reach me at <a href="mailto:joeleedev123@gmail.com">joeleedev123@gmail.com.</a>
           <br />

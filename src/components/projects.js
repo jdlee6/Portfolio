@@ -3,10 +3,8 @@ export const projects = [
     key: 1,
     image: 'https://d1n7cobwsi8961.cloudfront.net/projects/archivum_final.png',
     title: 'Archivum',
-    description:
-      'Archivum is a web application that displays a collection of lookbooks from various clothing brands where users can like/share their favorite looks.',
+    description: 'Archivum is a web application that displays a collection of lookbooks from various clothing brands where users can like/share their favorite looks.',
     stack: 'Python, Javascript, Django, React.js, PostgreSQL',
-    live: 'https://archivum.herokuapp.com',
     github: 'https://github.com/jdlee6/Archivum',
     demo: 'https://youtu.be/o250tGUZQCc'
   },
@@ -25,8 +23,7 @@ export const projects = [
     key: 3,
     image: 'https://d1n7cobwsi8961.cloudfront.net/projects/skoogle.png',
     title: 'Skoogle',
-    description:
-      'Skoogle is a web application created with Flask that finds skate parks within a desired location & mile radius.',
+    description: 'Skoogle is a web application created with Flask that finds skate parks within a desired location & mile radius.',
     stack: 'Python, HTML, CSS, Flask, PostgreSQL, AsyncIO',
     github: 'https://github.com/jdlee6/Skoogle',
     demo: 'https://youtu.be/ojG7EGgkLhY'
@@ -38,8 +35,6 @@ export const projects = [
     description:
       'EchoBot is a Discord bot that retrieves real time cryptocurrency data and also has charting & conversion features.',
     stack: 'Python, Discord.py, Matplotlib, Numpy, Docker',
-    live:
-      'https://discordapp.com/api/oauth2/authorize?client_id=573563489629634561&permissions=0&scope=bot',
     github: 'https://github.com/jdlee6/EchoBot',
     demo: 'https://youtu.be/LGaGIZ4AlGw'
   },
@@ -47,8 +42,7 @@ export const projects = [
     key: 5,
     image: 'https://d1n7cobwsi8961.cloudfront.net/projects/alien_invasion.png',
     title: 'Alien Invasion',
-    description:
-      'Alien Invasion is a game created in Python that focuses on object oriented programming.',
+    description: 'Alien Invasion is a game created in Python that focuses on object oriented programming.',
     stack: 'Python, PyGame',
     github: 'https://github.com/jdlee6/AlienInvasion',
     demo: 'https://youtu.be/GjoScft4geI'

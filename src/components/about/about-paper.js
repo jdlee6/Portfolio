@@ -36,6 +36,10 @@ export default function AboutPaper() {
           <br />
           I am a fast learner who <em>enjoys</em> exploring new technologies and frameworks.
           <br />
+          <br />
+          If you're interested in having any type of website work done, from something simple as a portfolio website to a complex web application like Twitter, feel free to reach me at <a href="mailto:joeleedev123@gmail.com">joeleedev123@gmail.com.</a>
+          <br />
+          I can provide additional examples of projects that I've been apart of if needed.
         </Typography>
       </ThemeProvider>
     </Paper>

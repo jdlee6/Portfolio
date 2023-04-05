@@ -24,9 +24,6 @@ export default function Type() {
             Frontend Developer
             <Typist.Delay ms={2500} />
             <Typist.Backspace count={22} />
-            Designer & Creator
-            <Typist.Delay ms={2500} />
-            <Typist.Backspace count={20} />
           </Typist>
         ) : (
           ' '

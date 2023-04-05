@@ -51,13 +51,12 @@ function App() {
       <div className="project-links">
         <a href={projects[index].demo}>Demo</a>
       </div>
-      {index === 2 || index === 3 || index === 4 ? (
-        null
-      ) : (
+
+      {projects[index].live != null ?
         <div className="project-links">
           <a href={projects[index].live}>Live</a>{' '}
-        </div>
-      )}
+        </div> : null}
+
       <div className="project-links">
         <a href={projects[index].github}>Github</a>{' '}
       </div>

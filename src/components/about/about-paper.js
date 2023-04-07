@@ -27,13 +27,12 @@ export default function AboutPaper() {
         <Typography variant="h3">
           Hi, my name is <em>Joe</em>.
           <br />
-          <br />I am a <em>Full Stack Web Developer</em> with experience in Typescript & Python.
+          <br />I am a <em>Full Stack Web Developer</em> with experience in Typescript & Python and currently reside in Brooklyn, New York.
+          <br />
           I am someone who <em>loves</em> manifesting
           ideas and transforming them into features and products.
           <br />
-          If you're interested in having any type of website work done, from something simple as a portfolio website to a complex web application like Twitter, feel free to reach me at <a href="mailto:joeleedev123@gmail.com">joeleedev123@gmail.com.</a>
-          <br />
-          I can provide additional examples of projects that I've been apart of if needed.
+          I am a fast learner who loves exploring new technologies.
         </Typography>
       </ThemeProvider>
     </Paper>
